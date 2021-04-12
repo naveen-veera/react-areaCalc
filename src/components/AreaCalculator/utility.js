@@ -1,6 +1,6 @@
 
 export const getAreaOfCircle = (radius) => {
     let convertedNumber = Number(radius);
-    return (Math.PI * radius * radius).toFixed(2);
+    return (Math.PI * convertedNumber * convertedNumber).toFixed(2);
 }
 
